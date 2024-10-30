@@ -7,10 +7,10 @@
         <visual>
         <origin rpy="0 0 0" xyz="0 0 0" />
         <geometry>
-            <box size="0.1 0.1 0.1"/>
+            <mesh filename="package://my_box_bot_description/meshes/cute_cube.dae" scale="0.1 0.1 0.1"/>
         </geometry>
         <material name="blue">
-            <color rgba="0.0 0.0 1.0 1"/>
+            <color rgba="0.0 0.0 1.0 1"/> 
         </material>
         </visual>
     </link>
